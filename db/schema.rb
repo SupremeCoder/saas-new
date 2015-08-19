@@ -11,11 +11,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150818204243) do
+ActiveRecord::Schema.define(version: 20150818214433) do
 
   create_table "contacts", force: true do |t|
     t.string   "name"
-    t.string   "emails"
+    t.string   "email"
     t.text     "comments"
     t.datetime "created_at"
     t.datetime "updated_at"
