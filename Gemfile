@@ -13,7 +13,7 @@ group :production do
 end
 
 # Use SCSS for stylesheets
-gem 'sass-rails'
+gem 'sass-rails', '4.0.3'
 # Use bootstrap library for styles
 gem 'bootstrap-sass', '3.3.5'
 # Use font awesome library
